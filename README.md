@@ -1,104 +1,95 @@
-# Hi there, I'm Kheri 👋
+Hi, I'm Heri Isaac 👋
+Data Scientist • Machine Learning Engineer • AI Agent Builder
 
-<p align="left">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=2196F3&width=435&lines=Data+Scientist+%7C+ML+Engineer;AI+Agent+Builder;Python+%26+Azure+Educator;Turning+Data+into+Decisions" alt="Typing SVG" />
-</p>
+Building reliable ML systems and intelligent agents that turn raw data into real business impact. 📍 Based in Lakewood, WA (UTC-8) • Open to remote/hybrid roles
 
----
+🧠 About Me
 
-## 🧠 About Me
+I'm a Data Scientist, ML Engineer, and AI Agent Builder who loves taking ambiguous, messy problems and transforming them into clear, production-grade solutions — and teaching others how to do the same along the way.
 
-I'm a passionate **Data Scientist**, **Machine Learning Engineer**, and **AI Agent Builder** who loves turning raw data into actionable insights and intelligent systems. When I'm not building models or deploying agents, I'm teaching the next generation of data professionals.
+🔬 I build end-to-end ML pipelines and AI agents, from exploratory analysis to reliable, monitored production systems
+📊 I work across the full data science stack — EDA, modeling, evaluation, deployment, monitoring
+🤖 I design AI agents using modern LLM frameworks and agentic architectures (tools, memory, reasoning)
+🎓 I teach Python, Machine Learning, and Microsoft Azure to students entering the field
+☁️ Certified in Microsoft Azure — comfortable with cloud-based ML and data solutions
+💡 Always exploring what's next in AI, from classical ML to cutting-edge LLMs
 
-- 🔬 I build end-to-end **ML pipelines** and **AI Agents** for fun and real-world impact
-- 📊 I work across the full data science stack — from **EDA** to **model deployment**
-- 🤖 I design **AI agents** using modern LLM frameworks and agentic architectures
-- 🎓 I teach **Python**, **Machine Learning**, and **Microsoft Azure** to students
-- ☁️ Certified in **Microsoft Azure** — comfortable with cloud-based ML and data solutions
-- 💡 Always exploring what's next in AI, from classical ML to cutting-edge LLMs
+What excites me most is the challenge. Noisy labels, concept drift, tight latency/cost budgets, sparse data, interpretability demands — the harder the problem, the more satisfying it is to crack. I genuinely enjoy debugging why a model performs differently in staging vs. prod, shaving 30% off inference latency without losing accuracy, or figuring out why a seemingly perfect offline metric fails online.
 
----
+🛠️ How I Approach Projects
+Deep problem understanding first — real time with stakeholders and business context before writing any code
+Iterate fast, validate ruthlessly — quick prototypes → strong baselines → rigorous experimentation (causal, sequential testing, uncertainty quantification)
+Production mindset from day one — scalable feature engineering, drift & performance monitoring, cost-aware optimization, CI/CD for models
+Communicate clearly — notebooks are for exploration; deliverables include clean code, docs, dashboards, and business summaries
+Learn continuously — reading papers, reproducing SOTA results, contributing small fixes to open-source tools I use daily
+Teach what I learn — turning ML and cloud concepts into structured, accessible lessons for students
+💪 Core Strengths
 
-## 🛠️ Tech Stack
+Machine Learning
 
-### Languages & Data
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+Tabular & time-series modeling (gradient boosting, deep learning for sequences, large-scale forecasting)
+Large Language Models — fine-tuning, RAG pipelines, evaluation (human + LLM-as-judge), efficient inference, test-time compute
+Causal inference & experimentation — uplift modeling, synthetic controls, A/B + sequential testing, double ML
+MLOps & productionization — feature stores, online learning, drift detection, model monitoring, cost/latency trade-offs
+Uncertainty & reliability — calibration, conformal prediction, out-of-distribution detection
 
-### Machine Learning & AI
-![Scikit-Learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![XGBoost](https://img.shields.io/badge/XGBoost-FF6600?style=for-the-badge&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+AI Agents & Cloud
 
-### Data & Visualization
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logoColor=white)
-![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge&logoColor=white)
+Designing autonomous AI agents with memory, tool use, and reasoning capabilities
+Azure ML Studio and Azure AI Services for scalable, cloud-based deployments
+Microsoft Azure certified — cloud basics through applied ML workflows
+⚙️ Tech Stack I Reach For Most (2026)
 
-### Cloud & Tools
-![Microsoft Azure](https://img.shields.io/badge/Microsoft_Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+Languages & Data Python SQL Polars pandas ibis Spark Jupyter
 
----
+ML / DL PyTorch (Lightning) Transformers Scikit-learn XGBoost LightGBM CatBoost TensorFlow Statsmodels
 
-## 🚀 What I'm Working On
+Orchestration & Pipelines Prefect 2 Airflow dbt MLflow Weights & Biases
 
-- 🤖 Building **autonomous AI agents** with memory, tools, and reasoning capabilities
-- 🏥 Developing **ML models** for real-world classification and prediction problems
-- 📚 Creating **learning resources** for students entering data science and cloud computing
-- ☁️ Exploring **Azure ML Studio** and **Azure AI Services** for scalable deployments
+Cloud & Storage Snowflake BigQuery S3 GCS Microsoft Azure
 
----
+Experimentation causalml econml Optuna Ray Tune
 
-## 📂 Featured Projects
+Evaluation & Monitoring Evidently AI Alibi Detect Prometheus + Grafana
 
-| Project | Description | Tech |
-|---|---|---|
-| 🫀 Heart Disease Predictor | End-to-end ML pipeline with XGBoost & Random Forest | Python, Scikit-learn, XGBoost |
-| 🤖 AI Agent Framework | Custom agent with tool use and memory | Python, LLMs, APIs |
-| 📊 ML Teaching Notebooks | Structured notebooks for students learning ML | Jupyter, Pandas, Matplotlib |
-| ☁️ Azure ML Pipeline | Cloud-based model training and deployment | Azure ML, Python |
+Visualization & Dev Tools Matplotlib Seaborn VS Code Git GitHub
 
----
-
-## 📈 GitHub Stats
-
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight&hide_border=true" height="165"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight&hide_border=true" height="165"/>
-</p>
-
----
-
-## 🎓 Teaching & Mentorship
+🚀 What I'm Working On
+🤖 Building autonomous AI agents with memory, tools, and reasoning capabilities
+🏥 Developing ML models for real-world classification and prediction problems
+📚 Creating structured learning resources for students entering data science and cloud computing
+☁️ Exploring Azure ML Studio and Azure AI Services for scalable deployments
+📖 Currently Exploring / Reading
+Mixture-of-Experts & sparse activation for efficient large models
+Long-context retrieval and better RAG evaluation
+Causal representation learning & foundation models for tabular data
+Test-time scaling & adaptive computation
+📂 Featured Projects
+Project	Description	Tech
+🫀 Heart Disease Predictor	End-to-end ML pipeline with XGBoost & Random Forest	Python, Scikit-learn, XGBoost
+🤖 AI Agent Framework	Custom agent with tool use and memory	Python, LLMs, APIs
+📊 ML Teaching Notebooks	Structured notebooks for students learning ML	Jupyter, Pandas, Matplotlib
+☁️ Azure ML Pipeline	Cloud-based model training and deployment	Azure ML, Python
+🎓 Teaching & Mentorship
 
 I actively teach and mentor students in:
 
-- 🐍 **Python for Data Science** — from fundamentals to advanced workflows
-- 🤖 **Machine Learning** — supervised, unsupervised, and model evaluation
-- ☁️ **Microsoft Azure** — cloud basics, Azure ML, and certifications prep
+🐍 Python for Data Science — from fundamentals to advanced workflows
+🤖 Machine Learning — supervised, unsupervised, and model evaluation
+☁️ Microsoft Azure — cloud basics, Azure ML, and certification prep
 
-> *"The best way to learn is to teach."*
+"The best way to learn is to teach."
 
----
+📈 GitHub Stats
 
-## 📫 Let's Connect
+(Add your stats widgets/badges here)
 
-<p align="left">
-  <a href="https://linkedin.com/in/YOUR_LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="mailto:YOUR_EMAIL"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-  <a href="https://github.com/YOUR_USERNAME"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
-</p>
+📫 Let's Connect
 
----
+Open to interesting problems in 2026 — especially production ML, trustworthy AI, AI agents, or high-stakes experimentation. If you're building something hard and data-driven, say hi!
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=YOUR_USERNAME&color=2196F3&style=flat-square&label=Profile+Views"/>
-</p>
+📧 DM here
+🔗 LinkedIn
+🌐 Personal site / blog (add link if you have one)
 
-<p align="center">⚡ <i>Data. Models. Agents. Repeat.</i> ⚡</p>
+⚡ Data. Models. Agents. Repeat. ⚡
