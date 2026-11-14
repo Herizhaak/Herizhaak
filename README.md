@@ -1,95 +1,30 @@
-Hi, I'm Heri Isaac 👋
-Data Scientist • Machine Learning Engineer • AI Agent Builder
+## Hi, I'm Isaac Hiri
 
-Building reliable ML systems and intelligent agents that turn raw data into real business impact. 📍 Based in Lakewood, WA (UTC-8) • Open to remote/hybrid roles
+**Data Scientist · ML model evaluation · Health data**
+Lakewood, WA · Open to remote, hybrid and on-site roles
 
-🧠 About Me
+I build machine-learning models and, just as importantly, check whether they actually work. I start with baselines, keep pipelines leakage-safe, report confidence intervals, check calibration and subgroups, and write up the limitations honestly. Most of my projects use health data. I also teach Python, machine learning and Azure fundamentals to students entering the field.
 
-I'm a Data Scientist, ML Engineer, and AI Agent Builder who loves taking ambiguous, messy problems and transforming them into clear, production-grade solutions — and teaching others how to do the same along the way.
+### Featured projects
 
-🔬 I build end-to-end ML pipelines and AI agents, from exploratory analysis to reliable, monitored production systems
-📊 I work across the full data science stack — EDA, modeling, evaluation, deployment, monitoring
-🤖 I design AI agents using modern LLM frameworks and agentic architectures (tools, memory, reasoning)
-🎓 I teach Python, Machine Learning, and Microsoft Azure to students entering the field
-☁️ Certified in Microsoft Azure — comfortable with cloud-based ML and data solutions
-💡 Always exploring what's next in AI, from classical ML to cutting-edge LLMs
+| Project | What it shows |
+|---|---|
+| [**LLM Evaluation Harness**](https://github.com/Herizhaak/llm-eval-harness) | Three small open LLMs (360M–1.5B) on PubMedQA, CPU only: strict answer parsing, bootstrap CIs, McNemar/Holm paired tests and calibration. The best model beats "always yes" by 10 points, which is not significant at n = 120. An LLM judge was validated against known answers and control inputs, and it failed (κ = 0.18). |
+| [**Hospital 30-Day Readmission**](https://github.com/Herizhaak/hospital-readmission-30day) | 99k real US hospital encounters, split by patient so no patient appears in both train and test. ROC-AUC 0.67 [0.66, 0.69]. Includes calibration, a threshold set by intervention capacity, and subgroup checks by age, race and payer. |
+| [**Diabetes Risk API**](https://github.com/Herizhaak/diabetes-risk-api) | Model serving with FastAPI: validated inputs, a versioned model card, Prometheus metrics, prediction logging and a PSI/KS drift endpoint. 51 tests, Docker, CI. |
+| [**Diabetes Risk: How Much Do the Blood Tests Do?**](https://github.com/Herizhaak/diabetes_pred) | Screening model with no blood test vs. one with HbA1c/glucose vs. the clinical rule. PR-AUC, out-of-fold thresholds, and a finding that the dataset's labels are partly rule-generated. |
+| [**Heart Disease Risk Classifier**](https://github.com/Herizhaak/heart_disease_pred) | Four models compared with repeated CV, test ROC-AUC 0.90 (95% CI 0.80–0.98), interpretable odds ratios, tested prediction CLI. |
+| [**Superstore Sales Analytics**](https://github.com/Herizhaak/superstore_forecast) | DuckDB SQL analysis, a Power BI dashboard, and a rolling-origin forecast backtest (Holt-Winters vs. seasonal naive vs. ARIMA). |
 
-What excites me most is the challenge. Noisy labels, concept drift, tight latency/cost budgets, sparse data, interpretability demands — the harder the problem, the more satisfying it is to crack. I genuinely enjoy debugging why a model performs differently in staging vs. prod, shaving 30% off inference latency without losing accuracy, or figuring out why a seemingly perfect offline metric fails online.
+### Tools I use
 
-🛠️ How I Approach Projects
-Deep problem understanding first — real time with stakeholders and business context before writing any code
-Iterate fast, validate ruthlessly — quick prototypes → strong baselines → rigorous experimentation (causal, sequential testing, uncertainty quantification)
-Production mindset from day one — scalable feature engineering, drift & performance monitoring, cost-aware optimization, CI/CD for models
-Communicate clearly — notebooks are for exploration; deliverables include clean code, docs, dashboards, and business summaries
-Learn continuously — reading papers, reproducing SOTA results, contributing small fixes to open-source tools I use daily
-Teach what I learn — turning ML and cloud concepts into structured, accessible lessons for students
-💪 Core Strengths
+- **Python and ML:** pandas, NumPy, scikit-learn, XGBoost, imbalanced-learn, statsmodels, Hugging Face Transformers
+- **Evaluation:** cross-validation, PR-AUC / ROC-AUC, calibration, bootstrap confidence intervals, threshold selection, subgroup analysis, LLM-as-judge, inter-rater agreement (Cohen's κ)
+- **Engineering:** FastAPI, Pydantic, pytest, GitHub Actions, Docker, Prometheus metrics, SQLite
+- **Data and BI:** SQL (DuckDB), Power BI, Excel
+- **Visualisation:** Matplotlib, Seaborn, Plotly
+- **Cloud:** Microsoft Certified: Azure Fundamentals (AZ-900)
 
-Machine Learning
+### Contact
 
-Tabular & time-series modeling (gradient boosting, deep learning for sequences, large-scale forecasting)
-Large Language Models — fine-tuning, RAG pipelines, evaluation (human + LLM-as-judge), efficient inference, test-time compute
-Causal inference & experimentation — uplift modeling, synthetic controls, A/B + sequential testing, double ML
-MLOps & productionization — feature stores, online learning, drift detection, model monitoring, cost/latency trade-offs
-Uncertainty & reliability — calibration, conformal prediction, out-of-distribution detection
-
-AI Agents & Cloud
-
-Designing autonomous AI agents with memory, tool use, and reasoning capabilities
-Azure ML Studio and Azure AI Services for scalable, cloud-based deployments
-Microsoft Azure certified — cloud basics through applied ML workflows
-⚙️ Tech Stack I Reach For Most (2026)
-
-Languages & Data Python SQL Polars pandas ibis Spark Jupyter
-
-ML / DL PyTorch (Lightning) Transformers Scikit-learn XGBoost LightGBM CatBoost TensorFlow Statsmodels
-
-Orchestration & Pipelines Prefect 2 Airflow dbt MLflow Weights & Biases
-
-Cloud & Storage Snowflake BigQuery S3 GCS Microsoft Azure
-
-Experimentation causalml econml Optuna Ray Tune
-
-Evaluation & Monitoring Evidently AI Alibi Detect Prometheus + Grafana
-
-Visualization & Dev Tools Matplotlib Seaborn VS Code Git GitHub
-
-🚀 What I'm Working On
-🤖 Building autonomous AI agents with memory, tools, and reasoning capabilities
-🏥 Developing ML models for real-world classification and prediction problems
-📚 Creating structured learning resources for students entering data science and cloud computing
-☁️ Exploring Azure ML Studio and Azure AI Services for scalable deployments
-📖 Currently Exploring / Reading
-Mixture-of-Experts & sparse activation for efficient large models
-Long-context retrieval and better RAG evaluation
-Causal representation learning & foundation models for tabular data
-Test-time scaling & adaptive computation
-📂 Featured Projects
-Project	Description	Tech
-🫀 Heart Disease Predictor	End-to-end ML pipeline with XGBoost & Random Forest	Python, Scikit-learn, XGBoost
-🤖 AI Agent Framework	Custom agent with tool use and memory	Python, LLMs, APIs
-📊 ML Teaching Notebooks	Structured notebooks for students learning ML	Jupyter, Pandas, Matplotlib
-☁️ Azure ML Pipeline	Cloud-based model training and deployment	Azure ML, Python
-🎓 Teaching & Mentorship
-
-I actively teach and mentor students in:
-
-🐍 Python for Data Science — from fundamentals to advanced workflows
-🤖 Machine Learning — supervised, unsupervised, and model evaluation
-☁️ Microsoft Azure — cloud basics, Azure ML, and certification prep
-
-"The best way to learn is to teach."
-
-📈 GitHub Stats
-
-(Add your stats widgets/badges here)
-
-📫 Let's Connect
-
-Open to interesting problems in 2026 — especially production ML, trustworthy AI, AI agents, or high-stakes experimentation. If you're building something hard and data-driven, say hi!
-
-📧 DM here
-🔗 LinkedIn
-🌐 Personal site / blog (add link if you have one)
-
-⚡ Data. Models. Agents. Repeat. ⚡
+[Kaggle](https://www.kaggle.com/persivalakeem)
