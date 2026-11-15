@@ -14,7 +14,7 @@ I build machine-learning models and, just as importantly, check whether they act
 | [**Diabetes Risk API**](https://github.com/Herizhaak/diabetes-risk-api) | Serves the NHANES no-blood-test diabetes model with FastAPI: validated questionnaire inputs, ADA score alongside the model, versioned model card, Prometheus metrics, prediction logging and a PSI/KS drift endpoint. 62 tests, Docker, CI. |
 | [**Diabetes Screening Without a Blood Test**](https://github.com/Herizhaak/diabetes_pred) | 8,064 US adults from CDC NHANES. A no-lab logistic model beats the ADA risk test (ROC-AUC 0.83 vs. 0.79) and flags 8 points fewer people at the same sensitivity. Survey-weighted prevalence, calibration and subgroup checks. |
 | [**Heart Failure Mortality Risk**](https://github.com/Herizhaak/heart_disease_pred) | 299 patients, repeated and nested CV, bootstrap CIs, ROC-AUC 0.79 [0.74, 0.85]. Shows that the follow-up-time column leaks the outcome (AUC jumps to 0.91 with it) and that the model is only modestly better than a two-variable clinical baseline. |
-| [**US Retail Sales Analytics**](https://github.com/Herizhaak/superstore_forecast) | 34 years of Census retail data: DuckDB SQL (e-commerce from 0.9% to 16% of sales, the 2020 COVID shock), a Plotly dashboard, and a rolling-origin forecast backtest where SARIMA is best (1.4% MAPE vs. 3.1% for seasonal naive). |
+| [**US Retail Sales Analytics**](https://github.com/Herizhaak/us-retail-sales-analytics) | 34 years of Census retail data: DuckDB SQL (e-commerce from 0.9% to 16% of sales, the 2020 COVID shock), a Plotly dashboard, and a rolling-origin forecast backtest where SARIMA is best (1.4% MAPE vs. 3.1% for seasonal naive). |
 
 ### Tools I use
 
