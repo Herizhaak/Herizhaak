@@ -1,7 +1,7 @@
 ## Hi, I'm Isaac Hiri
 
 **Data Scientist · ML model evaluation · Health data**
-Lakewood, WA · Open to remote, hybrid and on-site roles
+Olympia, WA · Open to remote, hybrid and on-site roles
 
 I build machine-learning models and, just as importantly, check whether they actually work. I start with baselines, keep pipelines leakage-safe, report confidence intervals, check calibration and subgroups, and write up the limitations honestly. Most of my projects use health data. I also teach Python, machine learning and Azure fundamentals to students entering the field.
 
@@ -27,4 +27,4 @@ I build machine-learning models and, just as importantly, check whether they act
 
 ### Contact
 
-[LinkedIn](https://www.linkedin.com/in/isaac-hiri84) · [Kaggle](https://www.kaggle.com/persivalakeem)
+[LinkedIn](https://www.linkedin.com/in/isaachiri) · [Kaggle](https://www.kaggle.com/persivalakeem)
