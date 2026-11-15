@@ -27,4 +27,4 @@ I build machine-learning models and, just as importantly, check whether they act
 
 ### Contact
 
-[LinkedIn](https://www.linkedin.com/in/isaachiri) · [Kaggle](https://www.kaggle.com/persivalakeem)
+[LinkedIn](https://www.linkedin.com/in/isaachiri) · [Kaggle](https://www.kaggle.com/isaachiri)
